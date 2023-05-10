@@ -1,0 +1,7 @@
+[
+    {"Sample Number":"202300066","Sample Date":"01/01/2023","Sample Time":"09:57","Sample Site":"1S07","Sample class":"Operational","Residual Free Chlorine (mg/L)":"0.62","Turbidity (NTU)":"0.91","Fluoride (mg/L)":"","Coliform (Quanti-Tray) (MPN /100mL)":"<1","E":{"coli(Quanti-Tray) (MPN/100mL)":"<1"}},
+    {"Sample Number":"202302841","Sample Date":"02/01/2023","Sample Time":"09:45","Sample Site":"1S07","Sample class":"Operational","Residual Free Chlorine (mg/L)":"0.58","Turbidity (NTU)":"0.88","Fluoride (mg/L)":"","Coliform (Quanti-Tray) (MPN /100mL)":"<1","E":{"coli(Quanti-Tray) (MPN/100mL)":"<1"}},
+    {"Sample Number":"202305406","Sample Date":"03/01/2023","Sample Time":"08:53","Sample Site":"1S07","Sample class":"Operational","Residual Free Chlorine (mg/L)":"0.67","Turbidity (NTU)":"0.57","Fluoride (mg/L)":"","Coliform (Quanti-Tray) (MPN /100mL)":"<1","E":{"coli(Quanti-Tray) (MPN/100mL)":"<1"}}
+
+
+]

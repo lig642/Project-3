@@ -1,0 +1,67 @@
+body{
+background-color: white;
+    font-size: 15px;
+    line-height: 1.4;
+    color: #000000;
+   
+    text-rendering: geometricprecision;
+    -webkit-font-smoothing: subpixel-antialiased;  
+  }
+
+  .title{
+    font-family:noto;
+    font-size: 90px;
+    margin-left: 100px;
+    justify-content: center;
+  }
+
+select,
+button {
+  width: 25%;
+  margin-left: 110px;
+  background-color: #ffffff;
+  color: white;
+  font-family:foldit;
+  font-size: 16px;
+  padding: 11px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  text-transform: unset;
+  font-weight: bold;
+  color: #020b87;
+  border: 1px solid #e0e3e7;
+  box-shadow: 0px 3px 11px -9px #6d85a6;
+  cursor: pointer;
+  transition: background-color 250ms ease;
+}
+
+button:hover {
+    background-color: #c9ddff;
+  }
+
+.botton1{
+    width: 15%;
+  margin-left: 400px;
+  margin-top:-45px;
+}
+
+.three-bottle{
+    width:350px;
+    height:320px;
+    margin-left: 1000px;
+    margin-top: -80px;
+    position:relative;
+    
+}
+
+  
+@font-face{
+    font-family:foldit;
+    src:url(Foldit-VariableFont_wght.ttf)
+}
+
+@font-face{
+    font-family:noto;
+    src:url(NotoSerifJP-Regular.otf)
+}

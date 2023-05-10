@@ -1,0 +1,181 @@
+
+
+.glass1{
+  width: 40px;
+  height:50px;
+  margin-top: 260px;
+  margin-left: 590px;
+  position: fixed;
+  z-index: 1;
+}
+
+.glass2{
+  width: 40px;
+  height:50px;
+  margin-top: 260px;
+  margin-left: 540px;
+  position: fixed;
+  z-index: 1;
+}
+.glass3{
+  width: 40px;
+  height:50px;
+  margin-top: 260px;
+  margin-left: 670px;
+  position: fixed;
+  z-index: 1;
+}
+.glass4{
+  width: 40px;
+  height:50px;
+  margin-top: 260px;
+  margin-left: 720px;
+  position: fixed;
+  z-index: 1;
+}
+
+.glass5{
+  width: 40px;
+  height:50px;
+  margin-top: 260px;
+  margin-left: 800px;
+  position: fixed;
+  z-index: 1;
+}
+
+.glass6{
+  width: 40px;
+  height:50px;
+  margin-top: 260px;
+  margin-left: 850px;
+  position: fixed;
+  z-index: 1;
+}
+
+
+.glass7{
+  width: 40px;
+  height:50px;
+  margin-top: 330px;
+  margin-left: 540px;
+  position: fixed;
+  z-index: 1;
+}
+
+.glass8{
+  width: 40px;
+  height:50px;
+  margin-top: 330px;
+  margin-left: 590px;
+  position: fixed;
+  z-index: 1;
+}
+
+.glass9{
+  width: 40px;
+  height:50px;
+  margin-top: 330px;
+  margin-left: 670px;
+  position: fixed;
+  z-index: 1;
+}
+
+.glass10{
+  width: 40px;
+  height:50px;
+  margin-top: 330px;
+  margin-left: 720px;
+  position: fixed;
+  z-index: 1;
+}
+
+.glass11{
+  width: 40px;
+  height:50px;
+  margin-top: 330px;
+  margin-left: 800px;
+  position: fixed;
+  z-index: 1;
+}
+
+.glass12{
+  width: 40px;
+  height:50px;
+  margin-top: 330px;
+  margin-left: 850px;
+  position: fixed;
+  z-index: 1;
+}
+
+
+
+.container {
+    position: relative;
+  }
+  
+  .container img {
+    width:400px;
+    height:300px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+  }
+
+
+
+  h2{
+font-family: yuji;
+  }
+
+
+/* 弹窗背景 */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* 弹窗内容 */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* 弹窗关闭按钮 */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+  
+
+@font-face {
+  font-family: yuji;
+  src: url(YujiSyuku-Regular.ttf);
+}
+
+
+  

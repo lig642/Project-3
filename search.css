@@ -1,0 +1,74 @@
+@font-face {
+    font-family: yuji;
+    src: url(YujiSyuku-Regular.ttf);
+}
+body {
+    font-family: yuji;
+    background-color: rgb(255, 255, 255);
+  }
+  .whole{
+    display:flex;
+    flex-direction: column;
+  }
+  h1 {
+    display:flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-family: yuji;
+  }
+
+  input[type="text"] {
+    padding: 3px;
+    font-size: 16px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    height: 28px;
+    width: 30%;
+    font-family: yuji;
+    color:rgb(0, 0, 0);
+    margin-top: 30px;
+  }
+  
+  button {
+    height:100%;
+    padding: 5px;
+    font-size: 15px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: yuji;
+    border:1px solid rgb(0, 0, 0);
+    margin-left: 10px;
+  }
+  
+  button:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+  }
+  
+  #search-results {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    color:white;
+  }
+  .back{
+    width:45px;
+    padding: 5px;
+    font-size: 16px;
+    background-color:rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: yuji;
+    border:1px solid white;
+  }
+  .back:hover{
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border:1px solid rgb(0, 0, 0);
+  }
+  a:link{
+    text-decoration: none;
+  }
+  .portfolio{
+    width:100%;
+  }

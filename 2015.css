@@ -201,6 +201,18 @@ font-family: yuji;
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .word {
+    position: absolute;
+    top: 380px;
+    left: -100px;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    background-image: url('information.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   
 
 @font-face {

@@ -14,7 +14,8 @@ function openModal(imageUrl) {
   function goToHomePage() {
     window.location.href = 'homepage.html'; // 替换成你的主页链接
   }
-  
+
+
 
 
 

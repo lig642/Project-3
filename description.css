@@ -1,0 +1,229 @@
+ .bottle{
+    width:270px;
+    height:300px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+  }
+
+
+.image1 {
+    width: 80px;
+    height:80px;
+    margin-left: 700px;
+    position: relative;
+    animation-name: fall1;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fall1 {
+    0% { top: 0px; }
+    100% { top: 320px; }
+}
+
+.image2 {
+    width: 80px;
+    height:80px;
+    margin-left: -180px;
+    position: relative;
+    animation-name: fall2;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transform:rotate(90deg)
+}
+@keyframes fall2 {
+    0% { top: 0px; }
+    100% { top: 350px; }
+}
+
+.image3  {
+    width: 80px;
+    height:80px;
+    margin-left: 20px;
+    position: relative;
+    animation-name: fall3;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transform: rotate(145deg) ;
+}
+@keyframes fall3 {
+    0% { top: 0px; }
+    100% { top: 380px; }
+}
+
+.image4 {
+    width: 80px;
+    height:80px;
+    margin-left: 600px;
+    position: relative;
+    animation-name: fall4;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fall4 {
+    0% { top: 0px; }
+    100% { top: 350px; }
+}
+
+.image5 {
+    width: 80px;
+    height:80px;
+    margin-left: -50px;
+    position: relative;
+    animation-name: fall5;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transform:rotate(95deg)
+}
+
+@keyframes fall5 {
+    0% { top: 0px; }
+    100% { top: 250px; }
+}
+.image6 {
+    width: 80px;
+    height:80px;
+    margin-left: -50px;
+    position: relative;
+    animation-name: fall6;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fall6 {
+    0% { top: 0px; }
+    100% { top: 210px; }
+}
+.image7 {
+    width: 80px;
+    height:80px;
+    margin-left: -110px;
+    position: relative;
+    animation-name: fall7;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fall7 {
+    0% { top: 0px; }
+    100% { top: 290px; }
+}
+.image8 {
+    width: 80px;
+    height:80px;
+    margin-left: -50px;
+    position: relative;
+    animation-name: fall8;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transform: rotate(135deg)
+}
+
+@keyframes fall8 {
+    0% { top: 0px; }
+    100% { top: 250px; }
+}
+.image9 {
+    width: 80px;
+    height:80px;
+    margin-left: -65px;
+    position: relative;
+    animation-name: fall9;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fall9 {
+    0% { top: 0px; }
+    100% { top: 260px; }
+}
+
+ /* 弹窗的样式 */
+ #modal {
+    display: none; /* 初始状态下隐藏 */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 90%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(128, 128, 128, 0.8), 0.8; /* 背景变暗 */
+  }
+  /* 弹窗内容的样式 */
+  #modal-content {
+    background-color: rgb(255, 255, 255);
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #373737;
+    width: 50%;
+  }
+
+  /* 关闭按钮的样式 */
+  .close {
+    color: rgb(0, 0, 0);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: -10px;
+  }
+  
+  /* 关闭按钮悬停时的样式 */
+  .close:hover,
+  .close:focus {
+    color: rgb(201, 201, 201);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 关闭按钮的样式 */
+  button {
+    color: white;
+    border: 3px solid white;
+    background-color: rgb(0, 0, 0);
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .word{
+    width:30%;
+    margin-left: 130px;
+    font-family: yuji;
+  }
+
+  #text {
+    display: none; /* 初始状态下不显示文本 */
+    position: absolute; /* 绝对定位 */
+    top: 50%; /* 垂直居中 */
+    left: 50%; /* 水平居中 */
+    transform: translate(-50%, -50%); /* 居中 */
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    width:25%;
+}
+
+@font-face {
+    font-family: yuji;
+    src: url(YujiSyuku-Regular.ttf);
+  }

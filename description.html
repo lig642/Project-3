@@ -1,14 +1,45 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Homepage</title>
+<head>
+	<meta charset="utf-8">
+	<title>图片下落效果</title>
     <link rel="stylesheet" href="description.css" />
-  </head>
+</head>
+<body>
+  <img class="bottle" src="glass.png">
+  <div class="images">
+  <img class="image1" src="e-coli-hero.png" onclick="openModal('es.png')">
+  <img class="image2" src="e-coli-hero.png"  onclick="openModal('es.png')">
+  <img class="image3" src="e-coli-hero.png" onclick="openModal('es.png')">
+  <img class="image4" src="e-coli-hero.png" onclick="openModal('es.png')">
+  <img class="image5" src="coliform.png" onclick="openModal('coliform1.png')">
+  <img class="image6" src="coliform.png" onclick="openModal('coliform1.png')">
+  <img class="image7" src="coliform.png" onclick="openModal('coliform1.png')">
+  <img class="image8" src="coliform.png" onclick="openModal('coliform1.png')">
+  <img class="image9" src="coliform.png" onclick="openModal('coliform1.png')">
+  </div>
 
-  <body>
-    <h3>Residual free chlorine</h3>
-    <h4>The amount of chlorine available at the end of a specified contact period in chlorinated water or wastewater. This residual may be in the form of dissolved gas (Cl2), hypochlorous acid (HOCl), or hypochlorite ion (OCl–), but does not include chlorine combined with an amine (ammonia or nitrogen) or other organic compound.
-        The presence of chlorine residual in drinking water indicates that: 1) a sufficient amount of chlorine was added initially to the water to inactivate the bacteria and some viruses that cause diarrheal disease; and, 2) the water is protected from recontamination during storage.</h4>
-    
-    
-  </body>
+
+<div id="modal">
+	<div id="modal-content">
+	  <span class="close" onclick="closeModal()">&times;</span>
+    <img src="" id="modal-image">
+  </div>
+</div>
+
+<div id="container" class="word">
+  <h2>
+    Residual free chlorine
+  </h2>
+  <p id="text">
+    The amount of chlorine available at the end of a specified contact period in chlorinated water or wastewater. This residual may be in the form of dissolved gas (Cl2), hypochlorous acid (HOCl), or hypochlorite ion (OCl–), but does not include chlorine combined with an amine (ammonia or nitrogen) or other organic compound.
+The presence of chlorine residual in drinking water indicates that: 1) a sufficient amount of chlorine was added initially to the water to inactivate the bacteria and some viruses that cause diarrheal disease; and, 2the water is protected from recontamination during storage.
+  </p>
+</div>
+
+<script src="description.js"></script>
+
+</body>
+</html>
+
+

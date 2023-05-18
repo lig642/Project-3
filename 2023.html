@@ -2,19 +2,33 @@
 <html>
   <head>
     <title>Homepage</title>
-    <link rel="stylesheet" href="2015.css" />
+    <link rel="stylesheet" href="2023.css" />
   </head>
 
   <body>
 
+    <div class="glasses">
+      <img class="glass1" src="glass.png" onclick="openModal('2-1-2023.png')" >
+      <img class="glass2" src="glass.png" onclick="openModal('1-1-2023.png')">
+      <img class="glass3"  src="glass.png"  onclick="openModal('3-1-2023.png')">
+
+      </div>
+
+ 
 
     <div class="container">
-      <img src="cabinet.png" alt="cabinet">
-    </div> 
-    
-    <img class="glass1" src="glass.png">
-<img class="glass2" src="glass.png">
+        <img src="cabinet.png" alt="cabinet">
+      </div>
+      
 
-      <img class="glass3" src="glass.png" >
+      <div id="modal">
+        <div id="modal-content">
+          <span class="close" onclick="closeModal()">&times;</span>
+          <img src="" id="modal-image">
+        </div>
+      </div>
 
+      <script src="2023.js"></script>
 
+  
+  </body>

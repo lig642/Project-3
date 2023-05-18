@@ -1,30 +1,22 @@
-// 获取弹窗元素
-const modal = document.getElementById("myModal");
-
-// 获取图片并将其插入到弹窗中
-const img = document.getElementById("myImg");
-const modalContent = modal.querySelector(".modal-content");
-const modalText = modal.querySelector("p");
-
-img.onclick = function () {
-  modal.style.display = "block";
-  modalText.textContent = "Residual Free Chlorine (mg/L):0.56";
-};
-
-// 获取关闭按钮
-const span = modal.querySelector(".close");
-
-// 点击关闭按钮时关闭弹窗
-span.onclick = function () {
-  modal.style.display = "none";
-};
-
-// 在用户点击弹窗外的任何地方时关闭弹窗
-window.onclick = function (event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+function openModal(imageUrl) {
+	var modal = document.getElementById("modal");
+	var modalImage = document.getElementById("modal-image");
+	modal.style.display = "block"; // 显示弹窗
+	modalImage.src = imageUrl; // 设置弹窗中的图片
   }
-};
+  
+  // 关闭弹窗
+  function closeModal() {
+	var modal = document.getElementById("modal");
+	modal.style.display = "none"; // 隐藏弹窗
+  }
+
+  function goToHomePage() {
+    window.location.href = 'homepage.html'; // 替换成你的主页链接
+  }
+  
+
+
 
 
 

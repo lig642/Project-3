@@ -9,43 +9,45 @@
    
 
 
+
     <div class="container">
       <img src="cabinet.png" alt="cabinet">
     </div> 
-    
-    
-<img class="glass2" src="glass.png">
-
-      <img class="glass3" src="glass.png" >
+     
 
 
-    <img class="glass4" src="glass.png">
-    <img class="glass5" src="glass.png" >
-    <img class="glass6" src="glass.png">
-    <img class="glass7" src="glass.png">
-    <img class="glass8" src="glass.png">
-    <img class="glass9" src="glass.png">
-    <img class="glass10" src="glass.png">
-    <img class="glass11" src="glass.png">
-    <img class="glass12" src="glass.png">
-  
-<div class="glass1">
-    <img id="myImg" src="glass.png" width="40px" height="50px">
-    </div>
+    <div class="glasses">
+<img class="glass1" src="glass.png" onclick="openModal('2-1-2015.png')" >
+<img class="glass2" src="glass.png" onclick="openModal('1-1-2015.png')">
+<img class="glass3"  src="glass.png"  onclick="openModal('3-1-2015.png')">
+<img class="glass4" src="glass.png" onclick="openModal('4-1-2015.png')">
+<img class="glass5" src="glass.png" onclick="openModal('5-1-2015.png')">
+<img class="glass6" src="glass.png" onclick="openModal('6-1-2015.png')">
+<img class="glass7" src="glass.png" onclick="openModal('7-1-2015.png')">
+<img class="glass8" src="glass.png" onclick="openModal('8-1-2015.png')">
+<img class="glass9" src="glass.png" onclick="openModal('9-1-2015.png')">
+<img class="glass10" src="glass.png" onclick="openModal('10-1-2015.png')">
+<img class="glass11" src="glass.png" onclick="openModal('11-1-2015.png')">
+<img class="glass12" src="glass.png" onclick="openModal('12-1-2015.png')">
+</div>
 
-    </div>
 
-    <div id="myModal" class="modal">
-      <div class="modal-content">
-        <span class="close">&times;</span>
-        <h2>02/01/2015</h2>
-     <p>Residual Free Chlorine (mg/L):0.56 </p>
-      <p>Turbidity (NTU):0.88</p>
-      <p>Fluoride (mg/L):0.84</p>
-      <p>Coliform (Quanti-Tray) (MPN /100mL):<1 </p>
-      <p>coli(Quanti-Tray) (MPN/100mL):<1</p>
-      </div>
-    </div>
+<div id="modal">
+	<div id="modal-content">
+	  <span class="close" onclick="closeModal()">&times;</span>
+    <img src="" id="modal-image">
+  </div>
+</div>
+
+<div class="arrow" onclick="goToHomePage()"></div>
+<div class="word" onclick="goToIntroductionPage()"></div>
+
+
+
+
+
+
+
 
 
 

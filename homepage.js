@@ -1,3 +1,5 @@
-const $Mybotton = document.getElementById('Mybotton')
-const $yearSelect = document.getElementById('year-select')
-
+function goToPage() {
+  var selectedYear = document.getElementById("year-select").value;
+  var pageUrl = selectedYear + ".html";
+  window.location.href = pageUrl;
+}

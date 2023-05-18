@@ -1,130 +1,191 @@
+
 .glass1{
-    width: 40px;
-    height:50px;
-    margin-top: 260px;
-    margin-left: 590px;
-    position: fixed;
-    z-index: 1;
+  width: 40px;
+  height:50px;
+  margin-top: 260px;
+  margin-left: 590px;
+  position: fixed;
+  z-index: 1;
+}
+
+.glass2{
+  width: 40px;
+  height:50px;
+  margin-top: 260px;
+  margin-left: 540px;
+  position: fixed;
+  z-index: 1;
+}
+.glass3{
+  width: 40px;
+  height:50px;
+  margin-top: 260px;
+  margin-left: 670px;
+  position: fixed;
+  z-index: 1;
+}
+.glass4{
+  width: 40px;
+  height:50px;
+  margin-top: 260px;
+  margin-left: 720px;
+  position: fixed;
+  z-index: 1;
+}
+
+.glass5{
+  width: 40px;
+  height:50px;
+  margin-top: 260px;
+  margin-left: 800px;
+  position: fixed;
+  z-index: 1;
+}
+
+.glass6{
+  width: 40px;
+  height:50px;
+  margin-top: 260px;
+  margin-left: 850px;
+  position: fixed;
+  z-index: 1;
+}
+
+
+.glass7{
+  width: 40px;
+  height:50px;
+  margin-top: 330px;
+  margin-left: 540px;
+  position: fixed;
+  z-index: 1;
+}
+
+.glass8{
+  width: 40px;
+  height:50px;
+  margin-top: 330px;
+  margin-left: 590px;
+  position: fixed;
+  z-index: 1;
+}
+
+.glass9{
+  width: 40px;
+  height:50px;
+  margin-top: 330px;
+  margin-left: 670px;
+  position: fixed;
+  z-index: 1;
+}
+
+.glass10{
+  width: 40px;
+  height:50px;
+  margin-top: 330px;
+  margin-left: 720px;
+  position: fixed;
+  z-index: 1;
+}
+
+.glass11{
+  width: 40px;
+  height:50px;
+  margin-top: 330px;
+  margin-left: 800px;
+  position: fixed;
+  z-index: 1;
+}
+
+.glass12{
+  width: 40px;
+  height:50px;
+  margin-top: 330px;
+  margin-left: 850px;
+  position: fixed;
+  z-index: 1;
+}
+
+
+
+.container {
+    position: relative;
   }
   
-  .glass2{
-    width: 40px;
-    height:50px;
-    margin-top: 260px;
-    margin-left: 540px;
+  .container img {
+    width:400px;
+    height:300px;
     position: fixed;
-    z-index: 1;
+    top: 395px;
+    left: 720px;
+    transform: translate(-50%, -50%);
+    z-index: 0;
   }
-  .glass3{
-    width: 40px;
-    height:50px;
-    margin-top: 260px;
-    margin-left: 670px;
-    position: fixed;
-    z-index: 1;
+
+
+
+  h2{
+font-family: yuji;
   }
-  .glass4{
-    width: 40px;
-    height:50px;
-    margin-top: 260px;
-    margin-left: 720px;
-    position: fixed;
-    z-index: 1;
-  }
-  
-  .glass5{
-    width: 40px;
-    height:50px;
-    margin-top: 260px;
-    margin-left: 800px;
-    position: fixed;
-    z-index: 1;
-  }
-  
-  .glass6{
-    width: 40px;
-    height:50px;
-    margin-top: 260px;
-    margin-left: 850px;
-    position: fixed;
-    z-index: 1;
-  }
-  
-  .glass1{
-    width: 40px;
-    height:50px;
-    margin-top: 260px;
-    margin-left: 590px;
-    position: fixed;
-    z-index: 1;
-  }
-  
-  .glass7{
-    width: 40px;
-    height:50px;
-    margin-top: 330px;
-    margin-left: 540px;
-    position: fixed;
-    z-index: 1;
-  }
-  
-  .glass8{
-    width: 40px;
-    height:50px;
-    margin-top: 330px;
-    margin-left: 590px;
-    position: fixed;
-    z-index: 1;
-  }
-  
-  .glass9{
-    width: 40px;
-    height:50px;
-    margin-top: 330px;
-    margin-left: 670px;
-    position: fixed;
-    z-index: 1;
-  }
-  
-  .glass10{
-    width: 40px;
-    height:50px;
-    margin-top: 330px;
-    margin-left: 720px;
-    position: fixed;
-    z-index: 1;
-  }
-  
-  .glass11{
-    width: 40px;
-    height:50px;
-    margin-top: 330px;
-    margin-left: 800px;
-    position: fixed;
-    z-index: 1;
-  }
-  
-  .glass12{
-    width: 40px;
-    height:50px;
-    margin-top: 330px;
-    margin-left: 850px;
-    position: fixed;
-    z-index: 1;
-  }
-  
-  
-  
-  .container {
-      position: relative;
-    }
+
+  .word{
+    margin-left:800px;
     
-    .container img {
-      width:400px;
-      height:300px;
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      z-index: 0;
-    }
+  }
+
+
+  /* 弹窗的样式 */
+  #modal {
+    display: none; /* 初始状态下隐藏 */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(128, 128, 128, 0.8), 0.8; /* 背景变暗 */
+  }
+  /* 弹窗内容的样式 */
+  #modal-content {
+    background-color: rgb(255, 255, 255);
+    margin: 7% auto;
+    padding: 20px;
+    border: 1px solid #373737;
+    width: 50%;
+  }
+
+  /* 关闭按钮的样式 */
+  .close {
+    color: rgb(0, 0, 0);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: -10px;
+  }
+  
+  /* 关闭按钮悬停时的样式 */
+  .close:hover,
+  .close:focus {
+    color: rgb(201, 201, 201);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 关闭按钮的样式 */
+  button {
+    color: white;
+    border: 3px solid white;
+    background-color: rgb(0, 0, 0);
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  
+  
+
+@font-face {
+  font-family: yuji;
+  src: url(YujiSyuku-Regular.ttf);
+}

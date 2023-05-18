@@ -25,8 +25,8 @@
         <script>
             // JSON数据，包含关键词和图片URL
             var imageData = [
-            {"keyword": "1-1-2015",
-            "url": "/images/1-1-2015.png",
+        { 
+            "image": "1-1-2015.png",
             "Sample Number":"201500024",
             "Date":"01/01/2015",
             "Sample Time":"11:15",
@@ -135,30 +135,27 @@
               ]
     
     
-            $(document).ready(function(){
-                $('form').submit(function(event){
-                    event.preventDefault();
-                    var keyword = $('#keyword').val();
-                    if (keyword !== '') {
-                        var imageUrl = searchImage(keyword);
-                        if (imageUrl) {
-                            $('#imageContainer').html('<img src="' + imageUrl + '">');
-                        } else {
-                            $('#imageContainer').html('<p>No image found</p>');
-                        }
-                    }
-                });
-            });
-    
-            function searchImage(keyword) {
-                // 遍历JSON数据，根据关键词匹配获取对应的图片URL
-                for (var i = 0; i < imageData.length; i++) {
-                    if (imageData[i].keyword === keyword) {
-                        return imageData[i].url;
-                    }
+              $(document).ready(function(){
+            $('form').submit(function(event){
+                event.preventDefault();
+                var sampleNumber = $('#search').val();
+                var imageUrl = getImageUrl(sampleNumber);
+                if(imageUrl){
+                    $('#result').html('<img src="' + imageUrl + '" alt="Sample Image">');
+                } else {
+                    $('#result').html('Image not found');
                 }
-                return null; // 如果未找到匹配的图片URL，则返回null
+            });
+        });
+
+        function getImageUrl(sampleNumber) {
+            for (var i = 0; i < imageData.length; i++) {
+                if (imageData[i]['Sample Number'] === sampleNumber) {
+                    return imageData[i].image;
+                }
             }
+            return null;
+        }
         </script>
 
  

@@ -223,6 +223,24 @@
     width:25%;
 }
 
+.word1{
+    width:30%;
+    margin-left: 900px;
+    margin-top: -50px;
+    font-size:25px;
+    font-family: yuji;
+}
+
+
+.hidden-text {
+    display: none;
+    font-size: 18px;
+  }
+
+  .show-text:hover + .hidden-text {
+    display: block;
+  }
+
 @font-face {
     font-family: yuji;
     src: url(YujiSyuku-Regular.ttf);

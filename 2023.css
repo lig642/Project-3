@@ -101,6 +101,17 @@
       }
     
       
+  .arrow {
+    position: absolute;
+    top: 720px;
+    left: 1350px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-image: url('arrow.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
       
     
     @font-face {

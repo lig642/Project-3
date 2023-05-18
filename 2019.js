@@ -10,3 +10,7 @@ function openModal(imageUrl) {
 	var modal = document.getElementById("modal");
 	modal.style.display = "none"; // 隐藏弹窗
   }
+
+  function goToHomePage() {
+    window.location.href = 'homepage.html'; // 替换成你的主页链接
+  }

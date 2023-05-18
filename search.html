@@ -5,16 +5,19 @@
     <link rel="stylesheet" type="text/css" href="search.css">
   </head>
   <body>
-    <div class="whole">
 
-    <div class="bar">
-    <input type="text" id="search-box" placeholder="Enter the day...">
-    <button onclick="search()">SEARCH</button>
-    </div>
-    </div>
-    <div class="search-results" id="search-results"></div>
-    <a href="homepage.html"><div class="back">BACK</div></a>
 
+
+    <body>
+        <div class="search-container">
+          <input id="keyword-input" class="search-input" type="text" placeholder="Enter a day...">
+          <button id="search-button" class="search-button">Search</button>
+        </div>
+      
+        <div class="result-container">
+          <img id="result-image" class="result-image" src="" >
+        </div>
+        <a href="homepage.html"><div class="back">BACK</div></a>
     <script src="search.js"></script>
   </body>
 </html>

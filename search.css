@@ -72,3 +72,30 @@ body {
   .portfolio{
     width:100%;
   }
+
+
+  .search-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .search-input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+  }
+
+  .search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  .result-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .result-image {
+    max-width: 400px;
+    max-height: 400px;
+  }
